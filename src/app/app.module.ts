@@ -26,8 +26,8 @@ import { RestauranteModule } from './restaurante/restaurante.module';
     HabitacionModule,
     HabitacionesModule,
     PerfilModule,
-    PortadaModule,
     RestauranteModule,
+    PortadaModule,
     
     
 

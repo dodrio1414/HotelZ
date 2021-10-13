@@ -10,6 +10,7 @@ import { HabitacionesModule } from './habitaciones/habitaciones.module';
 import { PerfilModule } from './perfil/perfil.module';
 import { PortadaModule } from './portada/portada.module';
 import { RestauranteModule } from './restaurante/restaurante.module';
+import { FooterModule } from './footer/footer.module';
 
 
 
@@ -28,6 +29,7 @@ import { RestauranteModule } from './restaurante/restaurante.module';
     PerfilModule,
     RestauranteModule,
     PortadaModule,
+    FooterModule,
     
     
 

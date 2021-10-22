@@ -3,11 +3,10 @@
 
     <!-- Page Content -->
     <div id="page-content-wrapper">
-        <div class="container-fluid px-4 ">
 
-          <!-- ======================================================================================
-                                                PRODUCTOS
-          ========================================================================================== -->
+
+        <!-- <div class="container-fluid px-4 ">
+   
             <div class="row g-3 my-2">
                 <div class="col-md-3">
                     <div class="p-3 bg-white shadow-sm d-flex justify-content-around align-items-center rounded">
@@ -52,9 +51,10 @@
                     </div>
                 </div>
             </div>
-            <!-- ======================================================================================
-                                                lista
-          ========================================================================================== -->
+            
+
+
+
 
             <div class="row my-5 justify-content-center">
                 <h3 class="fs-4 mb-3">Recent Orders</h3>
@@ -67,6 +67,8 @@
                                 <th>Discount</th>
                                 <th>Detail</th>
                             </tr>
+
+                                
                             <tr>
                                 <td *ngFor="let variableDefinida of FollowUpData.seguimiento">
                                     {{variableDefinida}}
@@ -78,7 +80,8 @@
                   </div>
             </div>
 
-        </div>
+        </div> -->
+
+        <app-listprogress></app-listprogress>
     </div>
 </div>
-<!-- /#page-content-wrapper -->

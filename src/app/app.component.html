@@ -1,9 +1,127 @@
-<app-nav-bar></app-nav-bar>
-<!-- <app-face></app-face> -->
+<!-- <app-nav-bar></app-nav-bar> -->
+<div class="container-fluid m-0 p-0">
+    <div class="row ">    
+        <div>
+                <!-- ====================================================================================== -->
+                <!-- Navar -->
+                <!-- ====================================================================================== -->
+                <nav class="class_nav navbar navbar-expand-lg navbar-dark bg-dark py-3">
+                    <div class="container-fluid">
+                    <a class="navbar-brand" href="">
+                        Hotel
+                        <img src="" alt="" width="50">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    
+                    
+                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" 
+                                    routerLink="Follow-up"
+                                    routerLinkActive="active"
+                                    href="">
+                                    follow-up
+                            </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href=""
+                                    routerLink="room"
+                                    routerLinkActive="active"
+                                >Room</a>
+                            </li>
 
-<app-follow-up></app-follow-up>
-<app-room></app-room>
-<app-rooms></app-rooms>
-<app-profile></app-profile>
-<app-restaurant></app-restaurant>
-<app-footer-content></app-footer-content>
+                            <li class="nav-item">
+                                <a class="nav-link" href=""
+                                    routerLink="rooms"
+                                    routerLinkActive="active"
+                                >Rooms</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href=""
+                                    routerLink="profile"
+                                    routerLinkActive="active"
+                                >Profile</a>
+                            </li>
+
+                            
+
+                            <li class="nav-item">
+                                <a class="nav-link" href=""
+                                    routerLink="restaurant"
+                                    routerLinkActive="active"
+                                >Restaurant</a>
+                            </li>
+
+                            
+
+                        </ul>
+                    </div>
+                    </div>
+                </nav>
+            
+                <!-- ====================================================================================== -->
+                <!-- Navar -->
+                <!-- ====================================================================================== -->
+        </div>
+        <div class="col">
+            <router-outlet></router-outlet>
+           
+            
+        </div>
+        <div>
+             <!-- ====================================================================================== -->
+                <!-- footer -->
+                <!-- ====================================================================================== -->
+            <footer class="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="footer-col">
+                            <h4>Hostal - Sauna z</h4>
+                            <ul>
+                                <li><a href="#">about us</a></li>
+                                <li><a href="#">our services</a></li>
+                                <li><a href="#">privacy policy</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-col">
+                            <h4>get help</h4>
+                            <ul>
+                                <li><a href="#">FAQ</a></li>
+                                <li><a href="#">returns</a></li>
+                                <li><a href="#">Follow-up</a></li>
+                                <li><a href="#">payment options</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-col">
+                            <h4>online shop</h4>
+                            <ul>
+                                <li><a href="#">watch</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-col">
+                            <h4>follow us</h4>
+                            <div class="social-links">
+                                <a href="https://www.facebook.com/Rodrigo.Y.Aguirre.Fer"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="https://www.instagram.com/rodrigo_y.a_fer/"><i class="fab fa-instagram"></i></a>
+                                <a href=""><i class="fab fa-tiktok"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+             <!-- ====================================================================================== -->
+                <!-- footer -->
+                <!-- ====================================================================================== -->
+        </div>
+    </div>
+</div>
+
+
+<!-- <app-face></app-face> -->
+<!-- <app-restaurant></app-restaurant>  -->
+<!-- <app-footer-content></app-footer-content> -->

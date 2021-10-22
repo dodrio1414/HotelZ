@@ -11,6 +11,7 @@ import { PerfilModule } from './perfil/perfil.module';
 import { PortadaModule } from './portada/portada.module';
 import { RestauranteModule } from './restaurante/restaurante.module';
 import { FooterModule } from './footer/footer.module';
+import { WebpageModule } from './webpage/webpage.module';
 
 
 
@@ -30,6 +31,8 @@ import { FooterModule } from './footer/footer.module';
     RestauranteModule,
     PortadaModule,
     FooterModule,
+    WebpageModule,
+    AppRoutingModule,
     
     
 

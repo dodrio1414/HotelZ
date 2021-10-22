@@ -1,26 +1,26 @@
 import { Component, OnInit } from '@angular/core';
 
 
-interface SeguimientoRefresh{
-  dateR: string,
-  priceR: number,
-  discountR: number,
-  detailR: string,
-}
+// interface SeguimientoRefresh{
+//   dateR: string,
+//   priceR: number,
+//   discountR: number,
+//   detailR: string,
+// }
 
-interface SeguimientoUser{
-  room: string,
-  totalPrice: number,
-  totalRestaurant: number,
-  userName: string,
-  seguimiento: [
-    dateR: string,
-    priceR: number,
-    discountR: number,
-    detailR: string,
+// interface SeguimientoUser{
+//   room: string,
+//   totalPrice: number,
+//   totalRestaurant: number,
+//   userName: string,
+//   seguimiento: [
+//     dateR: string,
+//     priceR: number,
+//     discountR: number,
+//     detailR: string,
     
-  ],
-}
+//   ],
+// }
 
 
 @Component({
@@ -33,7 +33,7 @@ export class FollowUpComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    console.table(this.FollowUpData)
+    
   }
 
   // FollowUpData2: SeguimientoRefresh ={
@@ -43,17 +43,17 @@ export class FollowUpComponent implements OnInit {
   //   detailR: "Almuerzo en el restaurante",
   // }
 
-  FollowUpData: SeguimientoUser = {
-    room: "103",
-    totalPrice: 1500,
-    totalRestaurant: 20,
-    userName: "Rodrigo Aguirre",
-    seguimiento: [
-      "10/10/2021",
-      20,
-      0,
-      "Almuerzo en el restaurante",
-    ]
-  }
+  // FollowUpData: SeguimientoUser = {
+  //   room: "103",
+  //   totalPrice: 1500,
+  //   totalRestaurant: 20,
+  //   userName: "Rodrigo Aguirre",
+  //   seguimiento: [
+  //     "10/10/2021",
+  //     20,
+  //     0,
+  //     "Almuerzo en el restaurante",
+  //   ]
+  // }
 
 }
